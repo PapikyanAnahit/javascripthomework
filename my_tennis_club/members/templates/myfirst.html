@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choco Art</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rokkitt&family=Russo+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            width: 1520px;
+            height: 1164px;
+            background-color: white;
+        }
+        #home {
+            color: #DA8E97;
+            font-size: 38px;
+            font-family: "Roboto";
+            margin-left: 40px; 
+            padding: 20px;
+            margin-top: 250px;
+        }
+        #about {
+            color: #DA8E97;
+            font-size: 38px;
+            font-family: "Roboto";
+            margin-left: 30px; 
+            margin-top: 250px;
+        }
+        #buy {
+            background-color: #DA8E97;
+            padding: 2px 39px;
+            text-align: center;
+            color: #5D3926;
+            font-size: 38px;
+            font-family: "Roboto";
+            margin-left: 780px; 
+        }
+        #life1 {
+            color: #5D3926;
+            font-size: 36px;
+            font-family: "Russo One";
+            margin-left: 540px; 
+        }
+        #CHOCOLADE1 {
+            color: #5D3926;
+            font-size: 36px;
+            font-family: "Russo One";
+            margin-left: 650px; 
+        }
+        .Why {
+            color: #5D3926;
+            font-size: 30px;
+            font-family: "Rokkitt";
+            margin-top: 225px;
+            margin-left: 1055px; 
+        }
+        .Sentences {
+            color: #5D3926;
+            font-size: 32px;
+            font-family: "Rokkitt";
+            margin-top: -400px;
+            margin-left: 20px;  
+        }
+        #logo {
+            margin-left: 510px; 
+        }
+        .responsive-image {
+            width: 475px;  
+            height: 475px;
+        }
+    </style>
+    {% load static %} 
+</head>
+<body>
+    <div>
+        <a id="home">Home</a>
+        <a id="about">About Us</a>
+        <a id="buy">Buy Now</a>
+    </div>
+    <p id="life1"><b>LIFE IS SWEETER WITH </b></p>
+    <p id="CHOCOLADE1"><b>CHOCOLATE</b></p>
+    <div id="logo">
+        <img src="{% static 'images/my_logo_.jpg' %}" alt="My Logo" class="responsive-image">
+    </div>
+    <div class="Why">
+        <p><b>Why Choose Us</b></p>
+        <p><b>Discover a world of chocolate where every strawberry is draped in love and dreams! Our chocolate-covered strawberries are perfect for special moments. With a touch of love and chocolate, you can brighten someone's day. Sweeten the lives of your loved ones with us!</b></p>
+    </div>
+    <div class="Sentences">
+        <ul>
+            <li><b>Every day is chocolate day</b></li>
+            <li><b>Be happy, eat chocolate</b></li>
+            <li><b>Happy and beautiful present</b></li>
+            <li><b>A little sweetness for your soul</b></li>
+            <li><b>Chocolate: the key to a joyful heart</b></li>
+        </ul>
+    </div>
+</body>
+</html>
