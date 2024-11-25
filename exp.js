@@ -30,23 +30,23 @@
 // console.log(tax)
 
 
-// let a = 1;                                3
-// let b = 2;
-// let c = 3;
+let a = 4;                                
+let b = 4;
+let c = 5;
 
-// if ((a + b > c) && (a + c > b) && (b + c > a)) {
-//     if ((c ** 2 === a ** 2 + b ** 2) || (a ** 2 === b ** 2 + c ** 2) || (b ** 2 === a ** 2 + c ** 2)) {
-//         console.log("Right triangle");
-//     } else if (a === b && b === c) {
-//         console.log("Equilateral triangle");
-//     } else if ((a === b) || (a === c) || (b === c)) {
-//         console.log("Isosceles triangle");
-//     } else if ((a !== b) && (a !== c) && (b !== c)) {
-//         console.log("Scalene triangle");
-//     }
-// } else {
-//     console.log("Not a triangle");
-// }
+if ((a + b > c) && (a + c > b) && (b + c > a)) {
+    if ((c ** 2 === a ** 2 + b ** 2) || (a ** 2 === b ** 2 + c ** 2) || (b ** 2 === a ** 2 + c ** 2)) {
+        console.log("Right triangle");
+    } else if (a === b && b === c && a === c) {
+        console.log("Equilateral triangle");
+    } else if ((a === b) || (a === c) || (b === c)) {
+        console.log("Isosceles triangle");
+    } else {
+        console.log("Scalene triangle");
+    }
+} else {
+    console.log("Not a triangle");
+}
 
 
 // process.stdin.once("data", input => {                 4                   
