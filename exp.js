@@ -37,7 +37,7 @@
 // if ((a + b > c) && (a + c > b) && (b + c > a)) {
 //     if ((c ** 2 === a ** 2 + b ** 2) || (a ** 2 === b ** 2 + c ** 2) || (b ** 2 === a ** 2 + c ** 2)) {
 //         console.log("Right triangle");
-//     } else if (a === b && b === c) {
+//     } else if (a === b && b === c && a === c) {
 //         console.log("Equilateral triangle");
 //     } else if ((a === b) || (a === c) || (b === c)) {
 //         console.log("Isosceles triangle");
